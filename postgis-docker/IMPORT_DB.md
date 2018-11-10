@@ -8,8 +8,8 @@ sudo docker run --name=postgis -d -e POSTGRES_USER=robin -e POSTGRES_PASS=******
 wget http://minus34.com/opendata/psma-201808/gnaf-201808.dmp  
 wget http://minus34.com/opendata/psma-201808/admin-bdys-201808.dmp  
 wget http://minus34.com/opendata/census-2016/census_2016_data.dmp  
-http://minus34.com/opendata/census-2016/census_2016_bdys.dmp  
-http://minus34.com/opendata/census-2016/census_2016_web.dmp  
+wget http://minus34.com/opendata/census-2016/census_2016_bdys.dmp  
+wget http://minus34.com/opendata/census-2016/census_2016_web.dmp  
 
 # Restore database from dump file
 ### 1. ABS Census database
